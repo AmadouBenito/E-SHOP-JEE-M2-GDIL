@@ -585,6 +585,10 @@ p.small {
     color: #ffffff;
 }
 
+.card1 h3 {
+    text-align: center;
+}
+
 
 /* Commande */
 
@@ -596,6 +600,10 @@ p.small {
 .commande_detail span {
     font-weight: 200;
     color: #252525;
+}
+
+.logo img {
+    width: 200px;
 }
 
 @media (max-width: 420px) {
