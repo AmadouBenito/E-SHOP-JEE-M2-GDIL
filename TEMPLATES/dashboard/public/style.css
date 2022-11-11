@@ -606,8 +606,25 @@ p.small {
     width: 200px;
 }
 
+tbody {
+    overflow-y: scroll;
+}
+
 @media (max-width: 420px) {
     .sidebar.close .nav-links li .sub-menu {
         display: none;
     }
+}
+
+
+/* Vendredi 11 */
+
+.container_liste>.row {
+    max-height: 100%;
+    overflow: scroll;
+    padding-bottom: 10px;
+}
+
+.container_liste>.row::-webkit-scrollbar {
+    display: none;
 }
